@@ -157,7 +157,7 @@ include 'session.php';
     <div class="col-md-12">
       <div class="row">
           <?php
-          $sql = "SELECT * FROM `product` where categories_id='1'";
+          $sql = "SELECT * FROM `product` where categories_id='1' && status='1'";
           $result = $conn->query($sql);
           
           if ($result->num_rows > 0) {
@@ -190,7 +190,7 @@ include 'session.php';
     <div class="col-md-12">
       <div class="row">
           <?php
-          $sql = "SELECT * FROM `product` where categories_id='2'";
+          $sql = "SELECT * FROM `product` where categories_id='2' && status='1'";
           $result = $conn->query($sql);
           
           if ($result->num_rows > 0) {
@@ -224,7 +224,7 @@ include 'session.php';
     <div class="col-md-12">
       <div class="row">
           <?php
-          $sql = "SELECT * FROM `product` where categories_id='3'";
+          $sql = "SELECT * FROM `product` where categories_id='3' && status='1'";
           $result = $conn->query($sql);
           
           if ($result->num_rows > 0) {

@@ -73,7 +73,6 @@ $res=mysqli_query($con,$sql);
 								echo "<span class='badge badge-edit'><a href='manage_product.php?id=".$row['id']."'>Edit</a></span>&nbsp;";
 								
 								echo "<span class='badge badge-delete'><a href='?type=delete&id=".$row['id']."'>Delete</a></span>";
-								
 								?>
 							   </td>
 							</tr>
