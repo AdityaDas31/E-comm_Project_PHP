@@ -44,42 +44,33 @@ include 'session.php';
 
         <!-- ----------Search Box----------- -->
 
-        <div class="ho">
-            <form action="">
+        <!-- <div class="ho">
+            <form action=""> -->
                 <!-- <div class="poi"> -->
-            <i class="fa fa-search" aria-hidden="true"></i>
+            <!-- <i class="fa fa-search" aria-hidden="true"></i>
             <div class="poipoi">
              <input type="search" id="search" class="search" placeholder="Search data">
             </div>
-             <button type="submit" id="search" class="search-button">Search</button>
+             <button type="submit" id="search" class="search-button">Search</button> -->
             
             <!-- </div> -->
               <!-- </div> -->
-            </form>
+            <!-- </form>
         </div>
-        <div id="display"></div>
+        <div id="display"></div> -->
 
         
 
-        <!-- <div class="Box">
-            <form action="">
+        <div class="Box">
+            <form action="productsearch.php" method="POST">
             <i class="fa fa-search" aria-hidden="true"></i>
             <div class="autocomplete">
-            <input  id="myInput" type="search" name="search" onkeyup="myFunction()" >
-            <button type="submit" class="search-button" >Search</button> -->
-            <!-- <div class="searchinput"> -->
-             
-                <!-- <li>Boys Graphic Print Hosiery T'Shirt </li>
-                <li>Full Sleeve Solid Boys Casual Jacket </li>
-                <li>New Gen-india T'Shirt(Black & White) </li>
-                <li>Graphic Print Pure Cotton T'Shirt Combo </li>
-                <li>MammyPoko Pants Extra-L(96 Pieces) </li>
-                <li>HIMALAYA Happy Gift PackS </li> -->
-             
-             <!-- </div> -->
-             <!-- </div>
+            <input  id="myInput" class="search" type="search" name="name">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <button name="search-btn" type="submit" class="search-button" >Search</button>
+             </div>
             </form>
-        </div> -->
+        </div>
         <!-- ----------Menu Items----------- -->
 
         <nav>
@@ -181,7 +172,6 @@ include 'session.php';
       </div>
     </div>
   </div>
-    
     
     <!-- ---------------boys product------------------ -->
 
@@ -364,7 +354,7 @@ include 'session.php';
             </div>
         </div>
         <hr>
-        <p class="copyright">Â© Copyright <script>document.write(new Date().getFullYear())</script> - TINY TRESSERS</p>
+        <p class="copyright">© Copyright <script>document.write(new Date().getFullYear())</script> - TINY TRESSERS</p>
     </div>
 </div>
 
